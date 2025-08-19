@@ -6,3 +6,20 @@
 module list
 module unload jupyter/ai/2025-02-20
 module list
+
+python3 -m venv ExpAT2
+source ExpAT2/bin/activate
+python3 -m pip install ipykernel
+python3 -m ipykernel install --user --ExpAT2
+
+
+module avail devel/miniconda/
+#No miniconda available
+
+module avail devel/miniforge
+#devel/miniforge/24.11.0-python-3.12    devel/miniforge/25.3.1-python-3.12 (D)
+
+module load devel/miniforge/25.3.1-python-3.12
+module list
+
+
