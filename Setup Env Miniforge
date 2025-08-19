@@ -1,0 +1,8 @@
+#Workflow 19.Aug.25 Setup bwHPC  
+#https://github.com/hpcraink/workshop-parallel-jupyter/blob/72d637b2432741df48e3808d2d847948b5da4eb2/2_Fundamentals.ipynb
+#Same as workshow until module miniforge (miniconda not avail) 
+
+#Check for loaded modules and unload
+module list
+module unload jupyter/ai/2025-02-20
+module list
